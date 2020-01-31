@@ -12,9 +12,50 @@ h4 {
   font-style: italic;
 }
 
+.banner {
+  height: 90vh;
+}
+
+.banner-content {
+  width: 100%;
+  float: right;
+}
+
+.leader {
+  font-weight: 600;
+}
+
+.btn {
+  border: solid 2px rgba(255, 0, 12, 1);
+  border-radius: 0;
+}
+
+.btn-ghost {
+  font-weight: 800;
+  font-style: italic;
+}
+
+.btn-ghost:hover {
+  border: solid 2px rgba(255, 0, 144, 1);
+  color: #fff;
+  background: linear-gradient(145deg, rgba(255, 0, 12, 1) 0%, rgb(255, 181, 0) 100%)
+}
+
 .image-top {
   border-top: solid 10px;
   border-image: linear-gradient(145deg, rgba(255, 0, 12, 1) 0%, rgba(255, 0, 144, 1) 100%);
   border-image-slice: 1;
   box-shadow: 2px 3px 3px 1px rgba(74, 74, 74, 0.2);
+}
+
+.link {
+  color: #000;
+  border: solid 2px rgba(255, 0, 12, 1);
+  text-decoration: none;
+}
+
+.link:hover {
+  border: solid 2px rgba(255, 0, 144, 1);
+  color: #fff;
+  background: linear-gradient(145deg, rgba(255, 0, 12, 1) 0%, rgb(255, 181, 0) 100%)
 }
