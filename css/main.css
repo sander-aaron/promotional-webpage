@@ -52,10 +52,54 @@ h4 {
   color: #000;
   border: solid 2px rgba(255, 0, 12, 1);
   text-decoration: none;
+  margin-bottom: 1em;
 }
 
 .link:hover {
   border: solid 2px rgba(255, 0, 144, 1);
   color: #fff;
   background: linear-gradient(145deg, rgba(255, 0, 12, 1) 0%, rgb(255, 181, 0) 100%)
+}
+
+.link-box {
+  margin-bottom: 1.5em;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .banner {
+    height: 100vh;
+  }
+
+  .banner-title {
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+  }
+
+  .banner-image {
+    position: absolute;
+    z-index: 0;
+  }
+
+  .banner-content {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+  }
+
+  .link-box {
+    margin-bottom: 0;
+  }
+
+}
+
+@media only screen and (min-width: 40em) {
+
+  .banner {
+    height: 110vh;
+  }
+
 }
